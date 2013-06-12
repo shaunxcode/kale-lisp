@@ -15,3 +15,5 @@ k.toJS = (form) ->
 k.interp = (str) -> k.print k.eval k.read str 
 
 k.compile = (str) -> k.toJS k.read str
+
+
